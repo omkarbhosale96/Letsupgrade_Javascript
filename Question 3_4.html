@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<script>
+let person= [
+{name : "Omkar",
+age : 24,
+country : "India",
+hobbies : ["Coding", "Sports", "Travelling"],
+},
+{name : "Michel",
+age : 28,
+country : "Germany",
+hobbies : ["Football", "Swimming", "Dance"],
+},
+{name : "Alexa",
+age : 32,
+country : "America",
+hobbies : ["Guitar", "Singing", "Dance"],
+},
+{name : "Sindhu",
+age : 21,
+country : "India",
+hobbies : ["Reading", "Writing", "Painting"],
+},
+];
+function show_person(){
+for (let i=0; i<person.length; i++){
+
+console.log(person[i]);
+}
+}
+function getAge(){
+for (let i=0; i<person.length; i++){
+if (person[i].age < 30){
+console.log(person[i])
+}
+}
+}
+getAge();
+function getCountry(){
+for (let i=0; i<person.length; i++){
+if (person[i].country == "India"){
+console.log(person[i])
+}
+}
+}
+getCountry();
+
+
+
+</script>
+</body>
+</html>
